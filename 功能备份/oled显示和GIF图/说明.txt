@@ -1,0 +1,17 @@
+功能说明：
+ > 控制 sh1106 的 oled 屏幕显示和播放GIF动图
+
+文件说明：
+sh1106.py ：sh1106驱动程序
+ * Github地址：https://github.com/robert-hh/SH1106/tree/master
+
+sprite.py : 显示驱动程序
+ *  Github地址：https://github.com/coinight/Micropython-esp32-ssd1306-sprite
+ ** B站地址：https://space.bilibili.com/87690728/search/video?keyword=sh1106
+
+tools.py : 读取文件路近和控制GIF播放抽离出来的函数
+
+GIF.py : GIF播放的示例程序
+
+转换程序/gifToBin.py ： 运行在pc端，将GIF逐帧转换成bin文件以供esp32显示
+关于gifToBin.py的说明，转换部分的代码是提取的sprite.py，具体函数实现可参考sprite.py
