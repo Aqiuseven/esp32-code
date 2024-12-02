@@ -20,3 +20,8 @@ GIF.py : GIF播放的示例程序
 部分说明：
 显示普通BMP图片时，调用bmpdecode转换时，必须保证BMP是24位位图数据。
 如果是GIF转换，会自动将GIF帧转换成24位位图数据，无需单独操作。
+
+一些GIF转换的工具：
+GIF裁剪：https://tool.lu/gifcropper
+GIF缩放：https://tool.lu/gifscaler
+GIF抽帧：https://www.58gif.com/gifEdit
